@@ -1,0 +1,25 @@
+# imports
+# biblioteca para interagir o SO
+import os
+
+
+# limpar o terminal
+os.system('cls')
+
+print('_'*70)
+print('ENTRADA DE DADOS EM PYTHON')
+print('='*70)
+
+# ENTRADA com CASTING
+nome = str (input('digite seu nome: '))
+escolaridade = str (input('digite sua escolaridade: '))
+colegio =  str (input('digite seu colégio: '))
+cidade = str (input('digite su cidade: '))
+
+# Saida Interopolada
+print(f'seja bem vindo {nome}', type (nome))
+print(f'{escolaridade}', type(escolaridade))
+print(f'{colegio}', type(colegio))
+print(f'{cidade}', type(cidade))
+
+print('_'*70)

@@ -1,0 +1,1 @@
+# Carregue a data atual do computador e apresente somente a data

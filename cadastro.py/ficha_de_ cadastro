@@ -1,0 +1,20 @@
+import os
+
+
+os.system('cls')
+
+print('-'*70)
+print('Sistema para Gestão de Clientes')
+print('='*70)
+
+# cadastro da empresa
+# cadastro do cliente pessoa fisica ou juridica
+
+A = 'dados de pessoa fisica: '
+Nome = str(input('entre com o seu Nome: '))
+
+
+Cpf = int(input(' entre com o seu Cpf:  '))
+Endereço = int(input('Entre com o seu Endereço:'))
+Telefone = int(input('Entre com seu Telefone:' ))     
+whatsapp = int(input('Entre com seu Whatsapp:' ))
